@@ -9,6 +9,6 @@ int main()
         cout << "all numbers are the same" << endl ;
       else if (num1 != num2 && num2 != num3)
         cout << "all numbers are distinct" << endl ;
-     
+      else if (cout << "there are two duplicated numbers" << endl) ;
      return 0;
 }
