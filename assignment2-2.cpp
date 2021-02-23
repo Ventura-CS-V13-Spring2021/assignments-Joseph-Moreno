@@ -10,5 +10,8 @@ int main()
       else if (num1 != num2 && num2 != num3)
         cout << "all numbers are distinct" << endl ;
       else if (cout << "there are two duplicated numbers" << endl) ;
+	  // Looks good, but when the two numbers are same, 
+	  // we need to figure out which numbers are same each other.
+	  
      return 0;
 }
