@@ -6,11 +6,21 @@ int main()
   char letter ;
   letter = 65; 
 
-  while(letter < 70)
-  {cout << letter << "" ;
+  while(letter < 90)
+  {
+  cout << letter << "" ;
   letter ++ ;
+  cout << letter << "" ;
+  letter ++ ;
+  cout << letter << "" ;
+  letter ++ ;
+  cout << letter << "" ;
+  letter ++ ;
+  cout << letter << "" ;
+  letter ++ ;
+  cout << "\n" ; 
+  
   }
-
 
   return 0 ; 
 }
