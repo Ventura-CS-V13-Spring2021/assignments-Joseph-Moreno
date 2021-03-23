@@ -9,8 +9,11 @@ using namespace std;
 int main()
 {
 
+
+
 int i ;
 int quizrdm ;
+
 int n;
 n=5 ;
 i= 0 ;
@@ -23,14 +26,11 @@ while( i < n )
     i++ ;
 }
 
-int a 
-int b 
-int c
-int d 
-int e 
+int quizrdm = 
+int a , b , c , d , e = quizrdm ;
+cout << a << endl ; 
 
-quizrdm = a , b , c , d , e ;
-cout << quizrdm << endl ;
+
 
 }
 
