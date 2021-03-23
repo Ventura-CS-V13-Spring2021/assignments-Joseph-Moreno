@@ -22,8 +22,19 @@ rdm5 = rand()%100 ;
 
 cout << rdm1 << " " << rdm2 << " " << rdm3 <<" " << rdm4<<" " <<rdm5 ; 
 int i = 1 ;
-while(i < 5) 
+while(i < 5, i++) 
   if(rdm2 > rdm1)
+    cout << rdm2; 
+    
+      if (rdm3 > rdm2)
+      cout << rdm3 ;
+      
+        if (rdm4 > rdm3)
+          cout << rdm4 ;
+          
+            if (rdm5>rdm4)
+              cout << rdm5 ; 
+              
 
 
 }
