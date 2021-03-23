@@ -21,6 +21,9 @@ rdm4 = rand()%100 ;
 rdm5 = rand()%100 ;
 
 cout << rdm1 << " " << rdm2 << " " << rdm3 <<" " << rdm4<<" " <<rdm5 ; 
+int i = 1 ;
+while(i < 5) 
+  if(rdm2 > rdm1)
 
 
 }
