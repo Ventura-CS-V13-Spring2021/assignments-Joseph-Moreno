@@ -8,28 +8,19 @@ using namespace std;
 
 int main()
 {
+int rdm1;
+int rdm2;
+int rdm3;
+int rdm4;
+int rdm5;
 
+rdm1 = rand()%100 ;
+rdm2 = rand()%100 ;
+rdm3 = rand()%100 ;
+rdm4 = rand()%100 ;
+rdm5 = rand()%100 ;
 
-
-int i ;
-int quizrdm ;
-
-int n;
-n=5 ;
-i= 0 ;
-
-srand(time(0)) ;
-while( i < n )
-{
-   quizrdm =random () %100 ;
-    cout << quizrdm << endl ;
-    i++ ;
-}
-
-int quizrdm = 
-int a , b , c , d , e = quizrdm ;
-cout << a << endl ; 
-
+cout << rdm1 << " " << rdm2 << " " << rdm3 <<" " << rdm4<<" " <<rdm5 ; 
 
 
 }
