@@ -9,27 +9,11 @@ using namespace std;
 int main()
 {
 
+int num1 , num2 , num3 ;
+cout << "enter 3 integer values between 0 and 99 : " ;
+cin >> num1 , num2 , num3
 
-
-int i ;
-int quizrdm ;
-
-int n;
-n=5 ;
-i= 0 ;
-
-srand(time(0)) ;
-while( i < n )
-{
-   quizrdm =random () %100 ;
-    cout << quizrdm << endl ;
-    i++ ;
-}
-
-int quizrdm = 
-int a , b , c , d , e = quizrdm ;
-cout << a << endl ; 
-
+if (num1 <= 99 && num2 <=
 
 
 }
