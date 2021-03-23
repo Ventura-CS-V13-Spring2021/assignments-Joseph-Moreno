@@ -17,7 +17,7 @@ rdfile.open("rdnum.txt");
 cout << "enter the number of rdnum \n" ;
  
 cin >> n;
-
+rdfile << n << endl ;
 srand(time(0));
 for(int i; i <n ; i++)
 {
