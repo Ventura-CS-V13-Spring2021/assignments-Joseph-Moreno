@@ -9,17 +9,30 @@ using namespace std;
 int main()
 {
 
-
+int i ;
 int quizrdm ;
 int n;
-n=4 ;
+n=5 ;
+i= 0 ;
 
-for(int i; i <n ; i++)
+srand(time(0)) ;
+while( i < n )
 {
    quizrdm =random () %100 ;
-   cout << quizrdm << endl ;
+    cout << quizrdm << endl ;
+    i++ ;
+}
+
+int a 
+int b 
+int c
+int d 
+int e 
+
+quizrdm = a , b , c , d , e ;
+cout << quizrdm << endl ;
+
 }
 
 
-}
 
