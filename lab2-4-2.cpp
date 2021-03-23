@@ -3,9 +3,21 @@
 using namespace std;
 int main()
 {
-  int rdnum
-  int n 
+  int rdnum;
+  int n ;
+  int sum = 0;
   ofstream  rdfile;
 
   rdfile.open("rdnum.txt");
+
+  while (rdfile.fail())
+  {
+
+    rdfile >> rdnum;
+    sum += rdnum ;
+    cout << rdnum << endl ;
+  }
+  cout << "Sum" << sum << endl; 
+
+  rdfile.close ();
 }
