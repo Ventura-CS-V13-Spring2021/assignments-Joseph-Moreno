@@ -6,29 +6,33 @@ using namespace std;
 
 
 
-int main(){
+int main()
+{
 
-  int num,i ;
-int range1 , range2 ;
 
-cout << "List 2 integers to find the prime numbers in the range: " ;
-cin >> range1 >> range2;
 
-if (range1 > range2){
-  cout << "cannot do since range 1 is bigger than range 2" << endl ;
+int i ;
+int quizrdm ;
+
+int n;
+n=5 ;
+i= 0 ;
+
+srand(time(0)) ;
+while( i < n )
+{
+   quizrdm =random () %100 ;
+    cout << quizrdm << endl ;
+    i++ ;
 }
-else if(range1 < range2)
-  for(int num=range1 ; num <= range2 ; num ++)
-  {
-    for (i=2 ; i < num ; i++ )
-    {
-      if(num % i == 0)
-        break;
-      
-    }
-    if (i== num)
-      cout<< num  << "\n"  ;
-  }
+
+int quizrdm = 
+int a , b , c , d , e = quizrdm ;
+cout << a << endl ; 
+
+
+
 }
+
 
 
