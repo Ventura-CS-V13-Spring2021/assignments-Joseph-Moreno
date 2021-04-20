@@ -24,7 +24,7 @@ int main()
 
   if (rdm1 < rdm2 && rdm1 < rdm3 )
     rdm1 = min;
-    else (rdm2 < rdm1 && rdm2 > rdm3);
+    else (rdm2 < rdm1 && rdm2 < rdm3);
      rdm2 = min;
     else (rdm3 = min);
 
