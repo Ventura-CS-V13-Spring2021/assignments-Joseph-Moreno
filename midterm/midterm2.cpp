@@ -1,8 +1,14 @@
 #include <iostream>
 using namespace std ;
 
-int getrdm(void);
+void getrdm (rdm);
 int()
 {
 
+}
+
+void getrdm(rdm)
+{
+  int rdm
+  rdm = rand(%50)
 }
